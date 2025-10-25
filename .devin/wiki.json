@@ -1,0 +1,34 @@
+{
+  "repo_notes": [
+    {
+      "content": "The most important code is in the volo-vault folder. Focus all analysis, documentation, and workflow explanations on volo-vault. The liquid staking folder is present, but is a lower priority for documentation.",
+      "author": "Developer"
+    }
+  ],
+  "pages": [
+    {
+      "title": "Volo Vault Architecture",
+      "purpose": "Thoroughly document the architecture, module structure, and main flows in the volo-vault folder. Explain how funds are deposited, managed, and withdrawn, and highlight the unique logic of this vault system."
+    },
+    {
+      "title": "Volo Vault Workflow",
+      "purpose": "Step-by-step, explain how users interact with the volo-vault: deposit flow, yield accrual, withdrawal, and any safety or governance logic. Illustrate the full user/contract workflow and how state transitions occur.",
+      "parent": "Volo Vault Architecture"
+    },
+    {
+      "title": "Volo Vault Core Functions",
+      "purpose": "Go in depth on the key functions of volo-vault contracts: deposits, withdrawals, rebalancing, yield logic, and internal accounting. Include parameters, returns, and relationships."
+    },
+    {
+      "title": "Volo Vault Data Structures",
+      "purpose": "Explain the main data structures and storage layout in volo-vault: vault state, user balances, pending withdrawals, rewards tracking, etc.",
+      "parent": "Volo Vault Architecture"
+    },
+    {
+      "title": "Liquid Staking Overview",
+      "purpose": "Provide only a brief summary of the liquid staking folder code and its high-level connection (if any) to volo-vault. No deep dive needed.",
+      "parent": "Volo Vault Architecture"
+    }
+  ]
+}
+
